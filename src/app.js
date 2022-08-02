@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './app.css';
-import {Box} from "@mui/material";
+
 
 function App() {
   return (
     <div className="app">
-      <Box>
-
-      </Box>
+      <header class="header">1</header>
+      <div className="sidebar">2</div>
+      <main class="main">3</main>
     </div>
   );
 }
